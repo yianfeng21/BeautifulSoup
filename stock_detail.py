@@ -45,5 +45,6 @@ if __name__ == '__main__':
     page = get_web_page('TPE: '+'2330')
     if page:
         stock = get_stock_info(page)
-        for k, v in stock.items():
-            print(k, v)
+        print(stock["Current_price："])
+        # for k, v in stock.items():
+            # print(k, v)
